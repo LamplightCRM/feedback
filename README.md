@@ -27,4 +27,4 @@ Thank you for taking the time to test and feed back. We want to make sure that d
 
 ## Any issues or questions you don't want to put here?
 
-Please email redesign@lamplightdb.co.uk
+Please email redesign@lamplightdb.co.uk. If you have a screenshot with PII please create a Hub question in the current system.
