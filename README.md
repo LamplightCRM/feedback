@@ -16,6 +16,7 @@ We will review these as promptly as we can and either
  - fix it
  - ask you questions / add comments
  - combine it with another if it seems similar
+ - suggest that we can't do it right now but would like to in the future
 
 If there are questions that need further discussion we may bring them back to the follow up webinar for broader discussion.
 
