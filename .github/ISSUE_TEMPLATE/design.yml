@@ -13,6 +13,14 @@ body:
     attributes:
       value: "**PLEASE REMEMBER THIS IS PUBLIC - DO NOT INCLUDE ANY IDENTIFIABLE PERSONAL INFORMATION**"
   - type: checkboxes
+    id: objective
+    attributes:
+      label: "Does this relate to any of our high-level objectives?"
+      options:
+        - label: "Continuity: is was hard for an existing user to figure this out..."
+        - label: "Accessible: this aspect was inaccessible or hard to use"
+        - label: "Works on all devices: this could be improved on a particular device"
+  - type: checkboxes
     id: duaper
     attributes:
       label: "Which of DUAPER does this relate to?"
