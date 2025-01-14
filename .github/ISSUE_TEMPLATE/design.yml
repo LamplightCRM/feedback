@@ -1,0 +1,36 @@
+name: Design issue
+description: A suggestion around visual or user experience design
+title: "[Design]: "
+labels: ["Design"]
+projects: ["mattparker/1"]
+assignees:
+  - mattparker
+body:
+  - type: markdown
+    attributes:
+      value: "You found a way to improve the design of new Lamplight?"
+  - type: markdown
+    attributes:
+      value: "**PLEASE REMEMBER THIS IS PUBLIC - DO NOT INCLUDE ANY IDENTIFIABLE PERSONAL INFORMATION**"
+  - type: checkboxes
+    id: duaper
+    attributes:
+      label: "Which of DUAPER does this relate to?"
+      options:
+        - label: "Discoverable - you can't find the thing you're looking for / expecting"
+        - label: "Understandable - this doesn't make sense in this context"
+        - label: "Affordances - I didn't realise it's a control I could interact with"
+        - label: "Predictable - I was surprised not in a good way"
+        - label: "Efficient - too many clicks or other interactions"
+        - label: "Responsive - there was no feedback about what's going on"
+  - type: textarea
+    id: detail
+    attributes: 
+      label: "Please provide more details"
+      description: "You can paste screenshots and recordings here if helpful (and no personal information in them), although if you've got a few perhaps better in the comments or email them to us"
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Do you have any suggestions to improve this?"
+      description: "Don't worry if not"
+      
