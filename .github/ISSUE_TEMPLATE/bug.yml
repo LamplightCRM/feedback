@@ -1,0 +1,56 @@
+name: Bug Report
+description: Something just doesn't work
+title: "[Bug]: "
+labels: ["bug"]
+projects: ["mattparker/1"]
+assignees:
+  - mattparker
+body:
+  - type: markdown
+    attributes:
+      value: "So you found something that doesn't work? Thank you for taking the time to report it.\nPlease provide as much information as you can here, and add any labels you think relate to this."
+  - type: input
+    id: system
+    attributes:
+      label: "Which system are you using? Please give the login email address"
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: "What doesn't work?"
+      description: "Please describe the functionality you were trying to use"
+    validations:
+      required: true
+  - type: dropdown
+    id: output
+    attributes:
+      label: "What did you see instead? Did you get a 'Problem saving' message? A 500 error (check Inspector)? Or something else?"
+      options:
+        - "Problem saving (please give date and time below)"
+        - "A 500 error (please give date and time below)"
+        - "Something else (what? a screenshot might help)"
+  - type: textarea
+    id: output_detail
+    attributes: 
+      label: "Please give more detail on the error"
+      description: "Time and date it happened v useful. Screenshots or recordings paste in a comment after you've created the issue."
+  - type: checkboxes
+    id: repeatable
+    attributes:
+      label: "Can you reliably make the error happen repeatedly?"
+      options:
+        - label: "Yes, every time I try"
+        - label: "Yes, most times I try"
+        - label: "No it seems random"
+  - type: textarea
+    id: log
+    attributes:
+      label: "Please paste any error messages from the console that appear when this happens"
+      description: "If you add three backticks ``` and then a new line before pasting the code, and then three more at the end, it'll look nicer."
+  - type: markdown
+    attributes:
+      value: "Thanks very much :)"
+      
+        
+        
