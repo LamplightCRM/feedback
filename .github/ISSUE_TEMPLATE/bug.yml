@@ -9,12 +9,14 @@ body:
   - type: markdown
     attributes:
       value: "So you found something that doesn't work? Thank you for taking the time to report it.\nPlease provide as much information as you can here, and add any labels you think relate to this."
+  - type: markdown
+    attributes:
+      value: "PLEASE REMEMBER THIS IS A PUBLIC SITE - DO NOT POST ANY PERSONALLY IDENTIFIABLE INFORMATION"
   - type: input
     id: system
     attributes:
-      label: "Which system are you using? Please give the login email address"
-    validations:
-      required: true
+      label: "Do we know who you are?"
+      description: "If your username doesn't make it obvious, please put your initials or those of your organisation"
   - type: textarea
     id: detail
     attributes:
