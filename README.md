@@ -1,24 +1,12 @@
-# Lamplight Redesign - feedback
+# Lamplight Redesign ARCHIVE - feedback
 
-This is the place we'll be storing any issues identified by our early testers for the redesigned Lamplight. The advantage of doing so here is that you'll be able to see other issues people have raised, and contribute to any discussions where there might be harder questions to resolve.
+## Update 22/5/2025
 
-## Adding a new issue
+While there are still things we'll be working on to improve, we're now going to wind down this repository. It's been incredibly helpful through the redesign period, but we now need to move these types of requests and feedback into our "everyday" processes. From now on, if you identify any issues please raise them in the Help system of Lamplight and someone in the team will respond there. 
 
-If you've found something that doesn't seem to work please [raise an issue](https://github.com/LamplightCRM/feedback/issues/new/choose) and add as much information as possible. Ideally, take a look through the [existing issues](https://github.com/LamplightCRM/feedback/issues) first so we don't end up with duplicates.
+Issues still live here will be resolved and updated, so we're not closing this down completely just yet. But please don't open new ones here from now on.
 
-**THIS IS A PUBLIC SITE. DO NOT PASTE SCREENSHOTS THAT HAVE IDENTIFYING INFORMATION**
-
-If you have a few issues, it would be very helpful if you can add them as separate issues.
-
-## What then
-
-We will review these as promptly as we can and either
- - fix it
- - ask you questions / add comments
- - combine it with another if it seems similar
- - suggest that we can't do it right now but would like to in the future
-
-If there are questions that need further discussion we may bring them back to the follow up webinar for broader discussion.
+Thank you ;)
 
 
 ## Code of Conduct
