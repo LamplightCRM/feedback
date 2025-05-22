@@ -2,3 +2,11 @@ name: PLEASE DON'T OPEN NEW ISSUES HERE
 description: Please add them in the Help pages of Lamplight
 title: "PLEASE DON'T OPEN NEW ISSUES HER"
 labels: []
+body:
+- type: markdown
+  attributes:
+    value: "## We are winding down this repository now."
+- type: input
+  id: empty
+  attributes:
+    label: GitHub requires at least one field here but, again, please don't add new issues here.
