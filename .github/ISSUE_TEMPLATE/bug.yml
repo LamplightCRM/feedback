@@ -2,9 +2,3 @@ name: PLEASE DON'T OPEN NEW ISSUES HERE
 description: Please add them in the Help pages of Lamplight
 title: "PLEASE DON'T OPEN NEW ISSUES HER"
 labels: []
-body:
-  - type: markdown
-    attributes:
-      value: "From the 22/5/2025 we will be reverting to the Help pages as a way to manage issues and feature requests. Please add it there as a question. Thanks."    
-        
-        
